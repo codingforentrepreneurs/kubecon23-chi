@@ -1,6 +1,6 @@
 # Workshop Reference for KubeCon 2023 in Chicago
 
-Complete reference dropping Monday, November 6th before the AM workhop.
+This repo will contain all reference material on Monday, November 6th before the AM workhop.
 
 If you are attending in person, be sure to:
 
