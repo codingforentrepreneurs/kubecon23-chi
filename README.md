@@ -13,6 +13,7 @@ If you are attending in person, be sure to:
 - [Vault (optional)](https://kirr.co/xfdde3)
 - [Kubectl](https://kirr.co/qqjzil)
 - [Helm](https://kirr.co/890eiu)
+- [VS Code (optional)](https://kirr.co/wai0jb)
 
 ## Server Installs
 - [Vault Bootstrap Script](https://kirr.co/6k05g8)
