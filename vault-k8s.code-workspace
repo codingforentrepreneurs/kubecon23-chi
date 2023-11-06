@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"terminal.integrated.env.osx": {
+			"KUBECONFIG": "${workspaceFolder}/.kube/config",
+		},
+		"terminal.integrated.env.window": {
+			"KUBECONFIG": "${workspaceFolder}\\.kube\\config",
+		}
+	}
+}
