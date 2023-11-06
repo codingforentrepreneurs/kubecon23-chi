@@ -6,9 +6,11 @@
 	],
 	"settings": {
 		"terminal.integrated.env.osx": {
+			"VAULT_ADDR": "http://<ip>:8200",
 			"KUBECONFIG": "${workspaceFolder}/.kube/config",
 		},
 		"terminal.integrated.env.window": {
+			"VAULT_ADDR": "http://<ip>:8200",
 			"KUBECONFIG": "${workspaceFolder}\\.kube\\config",
 		}
 	}
