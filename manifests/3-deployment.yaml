@@ -14,7 +14,7 @@ spec:
       annotations:
         vault.hashicorp.com/agent-inject: "true"
         vault.hashicorp.com/role: "vault-auth-sa-role"
-        vault.hashicorp.com/agent-inject-secret-config: "cfe/data/project/dev/web?version=9"
+        vault.hashicorp.com/agent-inject-secret-config: "cfe/data/project/dev/web?version=5"
         vault.hashicorp.com/agent-inject-template-config: |
           {{- with secret "cfe/data/project/dev/web" -}}
           API_USER="{{ .Data.data.username }}"

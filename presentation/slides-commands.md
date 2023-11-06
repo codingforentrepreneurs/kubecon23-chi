@@ -192,7 +192,7 @@ vault policy write user-token-policy ./policies/token-policy.hcl
 
 Slide 54
 ```bash
-vault write auth/userpass/users/cfe-user/polices policies="user-token-policy"
+vault write auth/userpass/users/cfe-user/policies policies="user-token-policy"
 
 
 vault read auth/userpass/users/cfe-user/
@@ -298,10 +298,10 @@ path "cfe/data/project/dev/web" {
 ```
 ```bash
 vault policy write cfe-kv-secret-policy ./policies/cfe-kv-secret-policy.hcl
-vault write auth/userpass/users/cfe-user/policies policies="cfe-kv-secret-policy, user-token-policy”
+vault write auth/userpass/users/cfe-user/policies policies="cfe-kv-secret-policy, user-token-policy"
 vault kv put -mount="cfe" project/dev/web \
 username=justin \
-stage=wew
+stage=new
 vault kv get -mount="cfe" project/dev/web
 vault kv get -mount="cfe" -version=1 project/dev/web
 ```
